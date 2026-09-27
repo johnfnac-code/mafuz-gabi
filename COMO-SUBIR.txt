@@ -1,0 +1,15 @@
+GABI 2.4.0 · COMO SUBIR
+
+Este pacote tem todos os arquivos soltos (sem pastas) de propósito:
+o upload do GitHub pelo navegador não consegue perder nada.
+
+1. Descompacte o zip.
+2. GitHub > New repository > nome: gabi-mafuz > Private > Create repository.
+3. Clique em "uploading an existing file" > "choose your files".
+   Selecione TODOS os arquivos da pasta (Ctrl+A) > Abrir > Commit changes.
+   Confira: a página do repositório lista Dockerfile, server.js, regioes.js,
+   casa.md, Jost-Light.ttf e os demais.
+4. Railway > serviço mafuz-agente > Settings > Source > Disconnect >
+   Connect Repo > gabi-mafuz > main.
+5. Deployments: o deploy do topo tem que ficar ACTIVE (verde), não "Completed".
+6. https://mafuz-agente-production.up.railway.app/health  ->  "versao": "2.4.0"
